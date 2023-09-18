@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="815BCF8C-A98F-DC32-3D1E-2CC8AF6D4C16" containerWithKeyObject="157E48B4-643C-7344-1DF0-DE94650FE1C0" localFKIndex="D5271945-9E61-F7B7-8136-C16668B4E0BC" name="HOSP_MEDICO_T_HOSPITAL_FK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 23:56:51 UTC</createdTime>
+<generatorID>F0714850-9AFF-0AE9-576A-C545AA3777EF</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<referredTableLongName>T_HOSPITAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F3C8AC19-6F4C-CEA4-B159-EAB7AA67957C</referredTableID>
+<keyObject>6C4A8FC6-9140-9DED-291A-BEF138275E46</keyObject>
+<referredKeyID>6C4A8FC6-9140-9DED-291A-BEF138275E46</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_hospital</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1393ABC2-60A7-812A-1207-7075C0782EAB" name="HOSP_MEDICO">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 21:50:28 UTC</createdTime>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<engineerTo>
+<item key="58DF281E-9179-454A-37C2-41EF01A93542" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_medhosp" id="50E5EDD8-8615-5EAE-4277-FFD55D8F2796">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 21:59:15 UTC</createdTime>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<engineerTo>
+<item key="58DF281E-9179-454A-37C2-41EF01A93542" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_medico" id="B91026C6-650B-3659-6E10-66A59192ACA5">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 21:59:06 UTC</createdTime>
+<generatorID>23BBC7F7-B25E-9154-AA51-B25C990D5DB0</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<engineerTo>
+<item key="58DF281E-9179-454A-37C2-41EF01A93542" value="true"/>
+</engineerTo>
+<referedAttribute>EA6A11C4-5D10-497C-4077-03AEE9856E1F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_hospital" id="5CD22804-6A48-F407-9385-21BF9FEAD400">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 21:59:11 UTC</createdTime>
+<generatorID>F0714850-9AFF-0AE9-576A-C545AA3777EF</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<engineerTo>
+<item key="58DF281E-9179-454A-37C2-41EF01A93542" value="true"/>
+</engineerTo>
+<referedAttribute>DB0CE898-2871-EDFE-B21D-36170819784F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4FACDE95-F246-E9BD-E251-1FE4E6E75397" name="HOSP_MEDICO PK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 21:59:32 UTC</createdTime>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="58DF281E-9179-454A-37C2-41EF01A93542" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>50E5EDD8-8615-5EAE-4277-FFD55D8F2796</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B1FBA417-6ED3-68DC-2C47-67DBFC7F2889" name="MEDICO_ESPEC">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 21:50:02 UTC</createdTime>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<engineerTo>
+<item key="58DF281E-9179-454A-37C2-41EF01A93542" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_medico" id="1FB506AE-A463-461C-8269-C342E1A76937">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 22:00:03 UTC</createdTime>
+<generatorID>C783D5B0-8B70-4EB0-4FCD-A87E12BB2090</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<engineerTo>
+<item key="58DF281E-9179-454A-37C2-41EF01A93542" value="true"/>
+</engineerTo>
+<referedAttribute>EA6A11C4-5D10-497C-4077-03AEE9856E1F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_espeicialidade" id="910578FA-569F-C1A2-E9CB-13B61CE32D9C">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 22:00:07 UTC</createdTime>
+<generatorID>3C851241-692D-5959-E876-EBE10BC78545</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<engineerTo>
+<item key="58DF281E-9179-454A-37C2-41EF01A93542" value="true"/>
+</engineerTo>
+<referedAttribute>A65B426C-7F11-D396-04E9-67F33EF9C34E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_instituicao" id="5D406E75-DDFB-7920-DD99-5227F4C3F771">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 22:11:39 UTC</createdTime>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<engineerTo>
+<item key="58DF281E-9179-454A-37C2-41EF01A93542" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="A1CF45EE-ABE4-7956-70D1-D33A1E207242">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 22:12:03 UTC</createdTime>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<engineerTo>
+<item key="58DF281E-9179-454A-37C2-41EF01A93542" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_termino" id="381C4104-F675-9F88-4A95-08EAFE120F8C">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 22:12:15 UTC</createdTime>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<engineerTo>
+<item key="58DF281E-9179-454A-37C2-41EF01A93542" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0C2D2F5A-3C9F-842A-DB6E-74786CC5FFA6" name="MEDICO_ESPEC PK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 22:00:03 UTC</createdTime>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="58DF281E-9179-454A-37C2-41EF01A93542" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1FB506AE-A463-461C-8269-C342E1A76937</attributeRef>
+<attributeRef>910578FA-569F-C1A2-E9CB-13B61CE32D9C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

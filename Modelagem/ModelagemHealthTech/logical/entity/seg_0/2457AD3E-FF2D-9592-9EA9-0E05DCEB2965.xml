@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2457AD3E-FF2D-9592-9EA9-0E05DCEB2965" name="T_AGENDA">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 21:51:57 UTC</createdTime>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<engineerTo>
+<item key="58DF281E-9179-454A-37C2-41EF01A93542" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_medico" id="6F7C7B83-1B49-E725-8484-BF217EEC6541">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 21:58:13 UTC</createdTime>
+<generatorID>C8A2B589-E33C-2ED3-E065-1A2372B4C600</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<engineerTo>
+<item key="58DF281E-9179-454A-37C2-41EF01A93542" value="true"/>
+</engineerTo>
+<referedAttribute>EA6A11C4-5D10-497C-4077-03AEE9856E1F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paciente" id="A9815FAB-055A-D9D7-041A-81CCA0055EFE">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 21:58:17 UTC</createdTime>
+<generatorID>C9FBF6CD-EFA3-04B2-A1E5-1033D3614D5E</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<engineerTo>
+<item key="58DF281E-9179-454A-37C2-41EF01A93542" value="true"/>
+</engineerTo>
+<referedAttribute>1473150A-9B48-4783-D5EB-2380CB12E645</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_medhosp" id="CABB164B-838D-C417-F7EB-8EE2DD52C873">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 21:59:41 UTC</createdTime>
+<generatorID>9A63E909-54A0-64AA-4C9B-4B5CB0B8F420</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<engineerTo>
+<item key="58DF281E-9179-454A-37C2-41EF01A93542" value="true"/>
+</engineerTo>
+<referedAttribute>50E5EDD8-8615-5EAE-4277-FFD55D8F2796</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_entrada" id="DF3EA70E-DD02-7A86-A53A-5FCF916CD1EF">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 22:09:12 UTC</createdTime>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<engineerTo>
+<item key="58DF281E-9179-454A-37C2-41EF01A93542" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_saida" id="0014FF2D-A821-C1C5-9387-5EE0BAE87D48">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 22:09:22 UTC</createdTime>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<engineerTo>
+<item key="58DF281E-9179-454A-37C2-41EF01A93542" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FA64E247-692E-02EA-9B2C-9875032A880B" name="T_AGENDA PK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 21:58:08 UTC</createdTime>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="58DF281E-9179-454A-37C2-41EF01A93542" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6F7C7B83-1B49-E725-8484-BF217EEC6541</attributeRef>
+<attributeRef>A9815FAB-055A-D9D7-041A-81CCA0055EFE</attributeRef>
+<attributeRef>CABB164B-838D-C417-F7EB-8EE2DD52C873</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

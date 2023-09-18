@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="68BBD6C8-1B42-0AB3-3F17-D37126D1A8E3" name="T_ESPCIALIDADE">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 23:56:51 UTC</createdTime>
+<generatorID>C4667B76-8B13-8BB8-F50B-B9B6882C98C7</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_espeicialidade" id="F75DCAE7-620B-C28B-4B54-A6B4523CF197">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 23:56:51 UTC</createdTime>
+<generatorID>A65B426C-7F11-D396-04E9-67F33EF9C34E</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_especialidade" id="09104CB9-F1E3-A0B6-0705-2877F70CB8B5">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 23:56:51 UTC</createdTime>
+<generatorID>69D50DBD-7A8D-4298-7DC3-F5CBC2A61D57</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>230</dataTypeSize>
+<ownDataTypeParameters>230,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB1F299D-3F2F-61AD-26AE-4832568DFBDB" name="T_ESPCIALIDADE_PK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 23:56:51 UTC</createdTime>
+<generatorID>FD9A807A-4B1D-85A8-055C-8CB0BB72096E</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F75DCAE7-620B-C28B-4B54-A6B4523CF197"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

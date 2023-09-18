@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="20F656A4-E431-5A1C-1669-0CE6DEC0F320" containerWithKeyObject="77E04697-5E23-C203-0FDA-C172A765B976" localFKIndex="EDAB6ABA-38EB-D864-366F-03A86494FE6C" name="MEDICO_ESPEC_T_ESPCIALIDADE_FK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 23:56:51 UTC</createdTime>
+<generatorID>3C851241-692D-5959-E876-EBE10BC78545</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<referredTableLongName>T_ESPCIALIDADE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>68BBD6C8-1B42-0AB3-3F17-D37126D1A8E3</referredTableID>
+<keyObject>DB1F299D-3F2F-61AD-26AE-4832568DFBDB</keyObject>
+<referredKeyID>DB1F299D-3F2F-61AD-26AE-4832568DFBDB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_espeicialidade</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

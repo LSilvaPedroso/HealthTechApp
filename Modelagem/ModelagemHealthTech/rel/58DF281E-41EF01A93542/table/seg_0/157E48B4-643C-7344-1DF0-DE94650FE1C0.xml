@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="157E48B4-643C-7344-1DF0-DE94650FE1C0" name="HOSP_MEDICO">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 23:56:51 UTC</createdTime>
+<generatorID>1393ABC2-60A7-812A-1207-7075C0782EAB</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_medhosp" id="A943EDD3-CE9C-A136-370E-F1D3267AC0BE">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 23:56:51 UTC</createdTime>
+<generatorID>50E5EDD8-8615-5EAE-4277-FFD55D8F2796</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_medico" id="84EAC71C-6367-4253-AD9D-D0D0A1DA811F">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 23:56:51 UTC</createdTime>
+<generatorID>B91026C6-650B-3659-6E10-66A59192ACA5</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97557A44-140C-4CA0-BE52-C06C28B22D3E" referredColumn="E7217C6D-9E1D-3F2B-6BD6-548BF337C458"/>
+</associations>
+</Column>
+<Column name="id_hospital" id="7D5552FA-D864-E3D4-BC09-29D0A2FF611F">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 23:56:51 UTC</createdTime>
+<generatorID>5CD22804-6A48-F407-9385-21BF9FEAD400</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="815BCF8C-A98F-DC32-3D1E-2CC8AF6D4C16" referredColumn="049F43C8-A830-A65B-D06D-02C8276E2998"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C004698E-AA1A-69F8-AC5B-30D18EB7DE83" name="HOSP_MEDICO_PK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 23:56:51 UTC</createdTime>
+<generatorID>4FACDE95-F246-E9BD-E251-1FE4E6E75397</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A943EDD3-CE9C-A136-370E-F1D3267AC0BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="582E04F2-BE52-B589-67D1-3933982B0822" name="HOSP_MEDICO_T_MEDICO_FK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 23:56:51 UTC</createdTime>
+<generatorID>23BBC7F7-B25E-9154-AA51-B25C990D5DB0</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84EAC71C-6367-4253-AD9D-D0D0A1DA811F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5271945-9E61-F7B7-8136-C16668B4E0BC" name="HOSP_MEDICO_T_HOSPITAL_FK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 23:56:51 UTC</createdTime>
+<generatorID>F0714850-9AFF-0AE9-576A-C545AA3777EF</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D5552FA-D864-E3D4-BC09-29D0A2FF611F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

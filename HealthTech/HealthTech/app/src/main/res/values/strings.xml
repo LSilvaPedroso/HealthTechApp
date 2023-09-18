@@ -1,0 +1,25 @@
+<resources>
+    ! -- Tela de Login --
+    <string name="app_name">Health Tech</string>
+    <string name="imageMSDescription">icon of the Ministry of Health</string>
+    <string name="titleAppLogin">Health with Information</string>
+    <string name="imageDoctorsDescription">doctors icon</string>
+    <string name="login">Your Login</string>
+    <string name="cpfLabel">Enter Your CPF</string>
+    <string name="passwordLabel">Enter Your Password</string>
+    <string name="passwordPlaceHolder">Password</string>
+    <string name="enter">Enter</string>
+    <string name="register">Register</string>
+    <string name="cpfValidation">The CPF entered is not valid/is empty</string>
+    <string name="nameValidation">Enter your full name</string>
+    <string name="emailValidation">Enter a valid email</string>
+    <string name="passwordValidation">The password must contain at least 8 characters</string>
+    <string name="confirmPasswordValidation">Passwords do not match</string>
+    <string name="validationEmpty">Required field</string>
+
+    ! -- Tela de Cadastro --
+    <string name="registerForm">Register Form</string>
+    <string name="nameLabel">Enter Your Name</string>
+    <string name="emailLabel">Enter Your E-mail</string>
+    <string name="confirmPasswordLabel">Confirm your Password</string>
+</resources>

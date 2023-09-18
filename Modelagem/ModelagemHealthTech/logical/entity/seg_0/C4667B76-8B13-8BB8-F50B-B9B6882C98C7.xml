@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C4667B76-8B13-8BB8-F50B-B9B6882C98C7" name="T_ESPCIALIDADE">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 21:49:54 UTC</createdTime>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<engineerTo>
+<item key="58DF281E-9179-454A-37C2-41EF01A93542" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_espeicialidade" id="A65B426C-7F11-D396-04E9-67F33EF9C34E">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 21:59:46 UTC</createdTime>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<engineerTo>
+<item key="58DF281E-9179-454A-37C2-41EF01A93542" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_especialidade" id="69D50DBD-7A8D-4298-7DC3-F5CBC2A61D57">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 22:07:22 UTC</createdTime>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<engineerTo>
+<item key="58DF281E-9179-454A-37C2-41EF01A93542" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>230</dataTypeSize>
+<ownDataTypeParameters>230,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FD9A807A-4B1D-85A8-055C-8CB0BB72096E" name="T_ESPCIALIDADE PK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 21:59:59 UTC</createdTime>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="58DF281E-9179-454A-37C2-41EF01A93542" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A65B426C-7F11-D396-04E9-67F33EF9C34E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

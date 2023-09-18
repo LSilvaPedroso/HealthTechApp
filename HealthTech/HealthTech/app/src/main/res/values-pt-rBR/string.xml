@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    ! -- Tela de Login --
+    <string name="app_name">Health Tech</string>
+    <string name="imageMSDescription">ícone do Ministério da Saúde</string>
+    <string name="titleAppLogin">Saúde com Informação</string>
+    <string name="imageDoctorsDescription">ícone de médicos</string>
+    <string name="login">Seu Login</string>
+    <string name="cpfLabel">Digite seu CPF</string>
+    <string name="passwordLabel">Digite sua Senha</string>
+    <string name="passwordPlaceHolder">Senha</string>
+    <string name="enter">Entrar</string>
+    <string name="register">Cadastre-se</string>
+    <string name="cpfValidation">O CPF digitado não é válido/está vazio</string>
+    <string name="nameValidation">Insira seu nome completo</string>
+    <string name="emailValidation">Insira um e-mail válido</string>
+    <string name="passwordValidation">A senha deve conter ao menos 8 caracteres</string>
+    <string name="confirmPasswordValidation">As senhas não coincidem</string>
+    <string name="validationEmpty">Campo Obrigatório</string>
+
+    ! -- Tela de Cadastro --
+    <string name="registerForm">Formulário de Cadastro</string>
+    <string name="nameLabel">Digite seu Nome</string>
+    <string name="emailLabel">Digite seu E-mail</string>
+    <string name="confirmPasswordLabel">Confirme sua Senha</string>
+</resources>

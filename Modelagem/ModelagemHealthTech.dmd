@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ModelagemHealthTech" id="167C4AD6-6A1D-5BAC-B4AB-40BDABE4B476" version="3.5">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 21:48:26 UTC</createdTime>
+<ownerDesignName>HealthTech</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>167C4AD6-6A1D-5BAC-B4AB-40BDABE4B476</designId>
+</OSDM_Design>

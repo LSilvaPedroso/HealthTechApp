@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77E04697-5E23-C203-0FDA-C172A765B976" name="MEDICO_ESPEC">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 23:56:51 UTC</createdTime>
+<generatorID>B1FBA417-6ED3-68DC-2C47-67DBFC7F2889</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_medico" id="DAD0ED77-CA85-4487-7123-BF2E1D9707D6">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 23:56:51 UTC</createdTime>
+<generatorID>1FB506AE-A463-461C-8269-C342E1A76937</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59FF9F56-3E6F-6B5B-DCD4-64B9A60AD853" referredColumn="E7217C6D-9E1D-3F2B-6BD6-548BF337C458"/>
+</associations>
+</Column>
+<Column name="id_espeicialidade" id="7E0A0405-AC24-093D-ACE8-F218C3E81047">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 23:56:51 UTC</createdTime>
+<generatorID>910578FA-569F-C1A2-E9CB-13B61CE32D9C</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20F656A4-E431-5A1C-1669-0CE6DEC0F320" referredColumn="F75DCAE7-620B-C28B-4B54-A6B4523CF197"/>
+</associations>
+</Column>
+<Column name="nm_instituicao" id="0BB2DF52-4BF3-6473-9CD8-19D15B9786E3">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 23:56:51 UTC</createdTime>
+<generatorID>5D406E75-DDFB-7920-DD99-5227F4C3F771</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inicio" id="E5D39224-1DFE-03B5-D424-2BED7185CC62">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 23:56:51 UTC</createdTime>
+<generatorID>A1CF45EE-ABE4-7956-70D1-D33A1E207242</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_termino" id="3013572B-A328-D670-46B1-8A99B28274DD">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 23:56:51 UTC</createdTime>
+<generatorID>381C4104-F675-9F88-4A95-08EAFE120F8C</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C2EB1A2-8E9C-2142-75ED-5A1885D5A51F" name="MEDICO_ESPEC_PK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 23:56:51 UTC</createdTime>
+<generatorID>0C2D2F5A-3C9F-842A-DB6E-74786CC5FFA6</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAD0ED77-CA85-4487-7123-BF2E1D9707D6"/>
+<colUsage columnID="7E0A0405-AC24-093D-ACE8-F218C3E81047"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDAB6ABA-38EB-D864-366F-03A86494FE6C" name="MEDICO_ESPEC_T_ESPCIALIDADE_FK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 23:56:51 UTC</createdTime>
+<generatorID>3C851241-692D-5959-E876-EBE10BC78545</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E0A0405-AC24-093D-ACE8-F218C3E81047"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDD78F3C-4368-5176-DE6B-408747D6B68E" name="MEDICO_ESPEC_T_MEDICO_FK">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 23:56:51 UTC</createdTime>
+<generatorID>C783D5B0-8B70-4EB0-4FCD-A87E12BB2090</generatorID>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAD0ED77-CA85-4487-7123-BF2E1D9707D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

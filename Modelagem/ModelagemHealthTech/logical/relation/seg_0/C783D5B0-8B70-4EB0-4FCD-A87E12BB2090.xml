@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_9" directorySegmentName="seg_0" id="C783D5B0-8B70-4EB0-4FCD-A87E12BB2090">
+<createdBy>Pedroso</createdBy>
+<createdTime>2023-04-18 22:00:03 UTC</createdTime>
+<ownerDesignName>ModelagemHealthTech</ownerDesignName>
+<engineerTo>
+<item key="58DF281E-9179-454A-37C2-41EF01A93542" value="true"/>
+</engineerTo>
+<sourcePk>8D36E8BC-FAEC-6E17-3819-23CEA1D57C83</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C5FB9625-C84A-DBA4-8FD6-8CFA85832DA5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B1FBA417-6ED3-68DC-2C47-67DBFC7F2889</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
